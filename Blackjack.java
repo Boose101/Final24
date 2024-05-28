@@ -51,6 +51,8 @@ public class Blackjack {
             dealerTotal = 0;
             player = new ArrayList<>();
             playerTotal = 0;
+            dealer.removeAll(oneDeck);
+            player.removeAll(oneDeck);
 
             deal();
             dealPlayer();
