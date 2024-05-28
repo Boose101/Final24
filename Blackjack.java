@@ -53,7 +53,7 @@ public class Blackjack {
             playerTotal = 0;
 
             deal();
-            deal();
+            dealPlayer();
 
             boolean gameOn = true;
             while (gameOn) {
